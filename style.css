@@ -3,7 +3,7 @@
   }
   
   body {
-    background: rgb(25, 21, 26);
+    background: rgb(29, 26, 26);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,7 +14,7 @@
   .utilities {
     width: 100vw;
     padding: 1rem;
-    color: white;
+    color: rgb(230, 214, 214);
     font-family: 'Lato',sans-serif;
     position: absolute;
     top: 50%;
@@ -32,14 +32,14 @@
     letter-spacing: 2px;
     font-size: 2rem;
     text-align : center;
-    text-shadow: 0 0 30px white;
+    text-shadow: 0 0 30px rgb(158, 129, 129);
   }
   
   .utilities button {
     height: 50px;
     width: 50px;
     background: none;
-    color: white;
+    color: rgb(222, 209, 209);
     outline: none;
     border: 2px solid rgb(184, 134, 222);
     border-radius: 25px;
@@ -67,7 +67,7 @@
     border: 2px solid rgb(184, 134, 222);
     background: none;
     outline: none;
-    color: white;
+    color: rgb(249, 5, 5);
   }
   
   button:hover, #submit:hover, button:active, #submit:active {
